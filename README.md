@@ -2,7 +2,7 @@
 
 # TP1
 
-Pondération : 30 % \
+Pondération : 35 % \
 Énoncé : Cours 6 \
 Remise : Cours 10
 
@@ -114,7 +114,7 @@ La remise du TP se fera à travers GitHub Classroom. Il vous faut d'abord accept
 
 -   Les consignes liées aux fonctionnalités sont respectées.
 
-### Qualité et lisibilité du code `15`
+### Qualité et lisibilité du code `20`
 
 -   Le code est lisible ; il est écrit et commenté de sorte à ce qu'un ou une nouvelle développeuse puisse bien le comprendre.
 -   Il est clair au premier coup d'œil quelle partie du code correspond à quelle fonctionnalité (afficher, vues, trier, filtrer, rechercher).
