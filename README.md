@@ -110,18 +110,15 @@ La remise du TP se fera à travers GitHub Classroom. Il vous faut d'abord accept
 -   Les fichiers sont bien identifiés et organisés selon leur type.
 -   Le code utilise pertinemment les modules Javascript (une classe par module, fichier `main.js`, etc.).
 
-### Documentation du code `10`
+### Respect des consignes `10`
+
+-   Les consignes liées aux fonctionnalités sont respectées.
+
+### Qualité et lisibilité du code `15`
 
 -   Le code est lisible ; il est écrit et commenté de sorte à ce qu'un ou une nouvelle développeuse puisse bien le comprendre.
 -   Il est clair au premier coup d'œil quelle partie du code correspond à quelle fonctionnalité (afficher, vues, trier, filtrer, rechercher).
 -   Les classes, constructeurs et méthodes sont documentés avec [JSDoc](https://jsdoc.app/index.html). (Seule la description est obligatoire ; la documentation des paramètres et de la valeur de retour est facultative.)
-
-### Respect des consignes `5`
-
--   Les consignes liées aux fonctionnalités sont respectées.
-
-### Qualité du code `10`
-
 -   L'indentation du code est respectée et le style du code est constant (astuce : utilisez [Prettier.js](https://prettier.io)).
 -   Les algorithmes sont de bonnes qualité.
 -   Le code respecte les principes de la programmation orientée object.
