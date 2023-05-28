@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="main.js" type="module"></script>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Studio Ghibli</title>
+	</head>
+	<body>
+		<aside>
+			<form id="search">
+				<label>
+					Search
+					<input type="text" name="search" />
+				</label>
+				<button type="submit">Search</button>
+				<button type="reset">Clear</button>
+			</form>
+			<form id="sort">
+				<label>
+					Sort
+					<select name="sort">
+						<option value="titleAsc">Title ascending</option>
+						<option value="titleDesc">Title descending</option>
+						<option value="yearAsc">Year ascending</option>
+						<option value="yearDesc">Year descending</option>
+					</select>
+				</label>
+			</form>
+			<form id="filter"></form>
+			<form id="display">
+				<fieldset>
+					<legend>Display</legend>
+					<label>
+						<input
+							type="radio"
+							name="display"
+							value="grid"
+							checked
+						/>
+						Grid
+					</label>
+					<label>
+						<input type="radio" name="display" value="list" />
+						List
+					</label>
+				</fieldset>
+			</form>
+		</aside>
+		<main></main>
+	</body>
+</html>

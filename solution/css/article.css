@@ -1,0 +1,63 @@
+/******************************************************************************/
+/* GENERAL */
+
+article {
+	background-color: white;
+	border-radius: 5px;
+	padding: 0.5rem;
+	border: 1px solid lightgray;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+article ul {
+	overflow: hidden;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+article li {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+article li span {
+	color: gray;
+}
+
+/******************************************************************************/
+/* GRID VIEW */
+
+main.grid article {
+	line-height: 0;
+}
+
+main.grid article ul {
+	display: none;
+}
+
+/******************************************************************************/
+/* LIST VIEW */
+
+main.list article {
+	display: flex;
+}
+
+main.list article ul {
+	margin-left: 1rem;
+}
+
+main.list article img {
+	max-width: 4.5rem;
+}
+
+main.list article ul {
+	display: block;
+}
